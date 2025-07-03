@@ -1,5 +1,5 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { useState } from 'react';
 import { Toaster } from '@/components/ui/sonner';
 import LoginPage from '@/pages/LoginPage';
 import DashboardLayout from '@/components/DashboardLayout';
@@ -15,7 +15,7 @@ import ExitInterview from '@/pages/ExitInterview';
 import AddIntern from '@/pages/AddIntern';
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = React.useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
     <Router>

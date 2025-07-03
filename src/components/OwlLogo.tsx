@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface OwlLogoProps {
   size?: 'sm' | 'md' | 'lg';
   className?: string;

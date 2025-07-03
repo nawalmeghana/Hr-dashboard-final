@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Badge } from '@/components/ui/badge';
@@ -9,7 +9,7 @@ import { UserX, TrendingDown, AlertTriangle, FileText, Calendar, Users } from 'l
 import { dataService } from '@/services/dataService';
 
 const ExitInterview = () => {
-  const [selectedDepartment, setSelectedDepartment] = React.useState<string>('all');
+  const [selectedDepartment, setSelectedDepartment] = useState<string>('all');
   
   const exitInterviews = dataService.getExitInterviews();
   const exitReasonsData = dataService.getExitReasonsData();
