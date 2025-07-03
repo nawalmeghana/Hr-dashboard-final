@@ -1,0 +1,682 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Aditya Sharma",
+      "email": "aditya@humblewalking.com",
+      "department": "Technology",
+      "role": "Frontend Developer Intern",
+      "contactNumber": "+91 9876543210",
+      "startDate": "2024-01-15",
+      "endDate": null,
+      "workingMode": "Remote",
+      "college": "IIT Delhi",
+      "degree": "B.Tech Computer Science",
+      "location": "Bangalore, India",
+      "hoursCompleted": 160,
+      "leaveDays": 2,
+      "tShirtSize": "L",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Priya Patel",
+      "email": "priya@humblewalking.com",
+      "department": "Marketing",
+      "role": "Digital Marketing Intern",
+      "contactNumber": "+91 9876543211",
+      "startDate": "2024-02-01",
+      "endDate": null,
+      "workingMode": "Hybrid",
+      "college": "XLRI Jamshedpur",
+      "degree": "MBA Marketing",
+      "location": "Mumbai, India",
+      "hoursCompleted": 152,
+      "leaveDays": 1,
+      "tShirtSize": "M",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Rahul Kumar",
+      "email": "rahul@humblewalking.com",
+      "department": "Design",
+      "role": "UI/UX Design Intern",
+      "contactNumber": "+91 9876543212",
+      "startDate": "2024-01-20",
+      "endDate": null,
+      "workingMode": "On-site",
+      "college": "NID Ahmedabad",
+      "degree": "M.Des Product Design",
+      "location": "Ahmedabad, India",
+      "hoursCompleted": 168,
+      "leaveDays": 0,
+      "tShirtSize": "XL",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Reddy",
+      "email": "sneha@humblewalking.com",
+      "department": "Content",
+      "role": "Content Writing Intern",
+      "contactNumber": "+91 9876543213",
+      "startDate": "2024-02-15",
+      "endDate": null,
+      "workingMode": "Remote",
+      "college": "Osmania University",
+      "degree": "MA English Literature",
+      "location": "Hyderabad, India",
+      "hoursCompleted": 145,
+      "leaveDays": 3,
+      "tShirtSize": "S",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Singh",
+      "email": "vikram@humblewalking.com",
+      "department": "Technology",
+      "role": "Backend Developer Intern",
+      "contactNumber": "+91 9876543214",
+      "startDate": "2024-03-01",
+      "endDate": null,
+      "workingMode": "Remote",
+      "college": "BITS Pilani",
+      "degree": "B.Tech Software Engineering",
+      "location": "Delhi, India",
+      "hoursCompleted": 155,
+      "leaveDays": 1,
+      "tShirtSize": "L",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Kavya Nair",
+      "email": "kavya@humblewalking.com",
+      "department": "Marketing",
+      "role": "Social Media Intern",
+      "contactNumber": "+91 9876543215",
+      "startDate": "2024-03-15",
+      "endDate": null,
+      "workingMode": "Hybrid",
+      "college": "Christ University",
+      "degree": "BBA",
+      "location": "Bangalore, India",
+      "hoursCompleted": 140,
+      "leaveDays": 2,
+      "tShirtSize": "M",
+      "status": "Active"
+    }
+  ],
+  "payroll": [
+    {
+      "employeeId": 1,
+      "bankName": "HDFC Bank",
+      "branchName": "Koramangala",
+      "accountHolder": "Aditya Sharma",
+      "accountNumber": "XXXX-XXXX-1234",
+      "accountType": "Savings",
+      "ifscCode": "HDFC0001234",
+      "micrCode": "560240002",
+      "bankAddress": "Koramangala, Bangalore - 560034",
+      "upiId": "aditya@paytm"
+    },
+    {
+      "employeeId": 2,
+      "bankName": "SBI",
+      "branchName": "Indiranagar",
+      "accountHolder": "Priya Patel",
+      "accountNumber": "XXXX-XXXX-5678",
+      "accountType": "Savings",
+      "ifscCode": "SBIN0001234",
+      "micrCode": "560002003",
+      "bankAddress": "Indiranagar, Bangalore - 560038",
+      "upiId": ""
+    },
+    {
+      "employeeId": 3,
+      "bankName": "ICICI Bank",
+      "branchName": "HSR Layout",
+      "accountHolder": "Rahul Kumar",
+      "accountNumber": "XXXX-XXXX-9012",
+      "accountType": "Current",
+      "ifscCode": "ICIC0001234",
+      "micrCode": "560029004",
+      "bankAddress": "HSR Layout, Bangalore - 560102",
+      "upiId": "rahul@phonepe"
+    },
+    {
+      "employeeId": 4,
+      "bankName": "Axis Bank",
+      "branchName": "Banjara Hills",
+      "accountHolder": "Sneha Reddy",
+      "accountNumber": "XXXX-XXXX-3456",
+      "accountType": "Savings",
+      "ifscCode": "UTIB0001234",
+      "micrCode": "500013005",
+      "bankAddress": "Banjara Hills, Hyderabad - 500034",
+      "upiId": "sneha@gpay"
+    },
+    {
+      "employeeId": 5,
+      "bankName": "Kotak Bank",
+      "branchName": "Connaught Place",
+      "accountHolder": "Vikram Singh",
+      "accountNumber": "XXXX-XXXX-7890",
+      "accountType": "Savings",
+      "ifscCode": "KKBK0001234",
+      "micrCode": "110001006",
+      "bankAddress": "Connaught Place, Delhi - 110001",
+      "upiId": "vikram@paytm"
+    },
+    {
+      "employeeId": 6,
+      "bankName": "HDFC Bank",
+      "branchName": "MG Road",
+      "accountHolder": "Kavya Nair",
+      "accountNumber": "XXXX-XXXX-2468",
+      "accountType": "Savings",
+      "ifscCode": "HDFC0005678",
+      "micrCode": "560025007",
+      "bankAddress": "MG Road, Bangalore - 560025",
+      "upiId": "kavya@phonepe"
+    }
+  ],
+  "timesheets": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "week": "Week 48, 2024",
+      "mondayHours": 8,
+      "tuesdayHours": 8,
+      "wednesdayHours": 8,
+      "thursdayHours": 8,
+      "fridayHours": 8,
+      "totalHours": 40
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "week": "Week 48, 2024",
+      "mondayHours": 8,
+      "tuesdayHours": 7,
+      "wednesdayHours": 8,
+      "thursdayHours": 8,
+      "fridayHours": 7,
+      "totalHours": 38
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "week": "Week 48, 2024",
+      "mondayHours": 9,
+      "tuesdayHours": 8,
+      "wednesdayHours": 8,
+      "thursdayHours": 9,
+      "fridayHours": 8,
+      "totalHours": 42
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "week": "Week 48, 2024",
+      "mondayHours": 7,
+      "tuesdayHours": 7,
+      "wednesdayHours": 7,
+      "thursdayHours": 7,
+      "fridayHours": 7,
+      "totalHours": 35
+    },
+    {
+      "id": 5,
+      "employeeId": 5,
+      "week": "Week 48, 2024",
+      "mondayHours": 8,
+      "tuesdayHours": 8,
+      "wednesdayHours": 8,
+      "thursdayHours": 8,
+      "fridayHours": 8,
+      "totalHours": 40
+    },
+    {
+      "id": 6,
+      "employeeId": 6,
+      "week": "Week 48, 2024",
+      "mondayHours": 7,
+      "tuesdayHours": 8,
+      "wednesdayHours": 7,
+      "thursdayHours": 8,
+      "fridayHours": 7,
+      "totalHours": 37
+    }
+  ],
+  "performance": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "week1": 85,
+      "week2": 88,
+      "week3": 90,
+      "week4": 92,
+      "kpis": "Code Quality, Problem Solving",
+      "improvementAreas": "Communication, Documentation",
+      "finalRecommendation": "Excellent performance, recommend for full-time role"
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "week1": 82,
+      "week2": 85,
+      "week3": 87,
+      "week4": 89,
+      "kpis": "Campaign Management, Analytics",
+      "improvementAreas": "Time Management, Strategy",
+      "finalRecommendation": "Strong performer, suitable for marketing role"
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "week1": 78,
+      "week2": 81,
+      "week3": 84,
+      "week4": 87,
+      "kpis": "Creative Design, User Experience",
+      "improvementAreas": "Technical Skills, Collaboration",
+      "finalRecommendation": "Good potential, needs technical training"
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "week1": 88,
+      "week2": 90,
+      "week3": 92,
+      "week4": 94,
+      "kpis": "Content Quality, SEO Knowledge",
+      "improvementAreas": "Video Editing, Analytics",
+      "finalRecommendation": "Exceptional performance, immediate hire recommendation"
+    },
+    {
+      "id": 5,
+      "employeeId": 5,
+      "week1": 80,
+      "week2": 83,
+      "week3": 86,
+      "week4": 88,
+      "kpis": "System Architecture, API Development",
+      "improvementAreas": "Frontend Skills, Testing",
+      "finalRecommendation": "Strong backend skills, consider for senior role"
+    },
+    {
+      "id": 6,
+      "employeeId": 6,
+      "week1": 75,
+      "week2": 78,
+      "week3": 81,
+      "week4": 84,
+      "kpis": "Social Media Engagement, Content Creation",
+      "improvementAreas": "Analytics, Strategy Planning",
+      "finalRecommendation": "Good progress, needs more strategic thinking"
+    }
+  ],
+  "engagement": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "linkedinPosts": 3,
+      "linkedinFollows": 1,
+      "instagramFollows": 1,
+      "googleReviews": 1,
+      "engagementScore": 85,
+      "rewardsEarned": 5,
+      "recognitionBadges": ["Top Performer", "Team Player"]
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "linkedinPosts": 5,
+      "linkedinFollows": 1,
+      "instagramFollows": 1,
+      "googleReviews": 2,
+      "engagementScore": 92,
+      "rewardsEarned": 8,
+      "recognitionBadges": ["Social Media Champion", "Brand Advocate"]
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "linkedinPosts": 2,
+      "linkedinFollows": 1,
+      "instagramFollows": 1,
+      "googleReviews": 1,
+      "engagementScore": 78,
+      "rewardsEarned": 4,
+      "recognitionBadges": ["Creative Contributor"]
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "linkedinPosts": 4,
+      "linkedinFollows": 1,
+      "instagramFollows": 1,
+      "googleReviews": 1,
+      "engagementScore": 88,
+      "rewardsEarned": 6,
+      "recognitionBadges": ["Content Creator", "Thought Leader"]
+    },
+    {
+      "id": 5,
+      "employeeId": 5,
+      "linkedinPosts": 2,
+      "linkedinFollows": 1,
+      "instagramFollows": 0,
+      "googleReviews": 1,
+      "engagementScore": 72,
+      "rewardsEarned": 3,
+      "recognitionBadges": ["Technical Expert"]
+    },
+    {
+      "id": 6,
+      "employeeId": 6,
+      "linkedinPosts": 6,
+      "linkedinFollows": 1,
+      "instagramFollows": 1,
+      "googleReviews": 2,
+      "engagementScore": 90,
+      "rewardsEarned": 7,
+      "recognitionBadges": ["Social Media Star", "Engagement Leader"]
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": true,
+      "linkedinPost": true,
+      "linkedinFollow": true,
+      "instagramFollow": true,
+      "googleReview": false,
+      "certificateIssued": true,
+      "lorIssued": false,
+      "documentDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": true,
+      "linkedinPost": true,
+      "linkedinFollow": true,
+      "instagramFollow": true,
+      "googleReview": true,
+      "certificateIssued": false,
+      "lorIssued": false,
+      "documentDate": "2024-02-01"
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": false,
+      "linkedinPost": false,
+      "linkedinFollow": true,
+      "instagramFollow": false,
+      "googleReview": false,
+      "certificateIssued": false,
+      "lorIssued": false,
+      "documentDate": "2024-01-20"
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": true,
+      "linkedinPost": true,
+      "linkedinFollow": true,
+      "instagramFollow": true,
+      "googleReview": true,
+      "certificateIssued": true,
+      "lorIssued": true,
+      "documentDate": "2024-02-15"
+    },
+    {
+      "id": 5,
+      "employeeId": 5,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": true,
+      "linkedinPost": false,
+      "linkedinFollow": true,
+      "instagramFollow": false,
+      "googleReview": true,
+      "certificateIssued": false,
+      "lorIssued": false,
+      "documentDate": "2024-03-01"
+    },
+    {
+      "id": 6,
+      "employeeId": 6,
+      "offerLetterSent": true,
+      "offerSigned": true,
+      "formFilled": true,
+      "linkedinPost": true,
+      "linkedinFollow": true,
+      "instagramFollow": true,
+      "googleReview": true,
+      "certificateIssued": false,
+      "lorIssued": false,
+      "documentDate": "2024-03-15"
+    }
+  ],
+  "exitInterviews": [
+    {
+      "id": 1,
+      "employeeId": 7,
+      "employeeName": "Rohit Gupta",
+      "department": "Marketing",
+      "exitDate": "2024-11-15",
+      "exitReason": "Career Growth",
+      "overallSatisfaction": 4,
+      "workEnvironment": 5,
+      "managementSupport": 4,
+      "careerDevelopment": 3,
+      "workLifeBalance": 4,
+      "compensation": 3,
+      "recommendation": 4,
+      "feedback": "Great learning experience, would recommend to others",
+      "improvements": "More structured mentorship program"
+    },
+    {
+      "id": 2,
+      "employeeId": 8,
+      "employeeName": "Sneha Reddy",
+      "department": "Design",
+      "exitDate": "2024-11-20",
+      "exitReason": "Higher Studies",
+      "overallSatisfaction": 5,
+      "workEnvironment": 5,
+      "managementSupport": 5,
+      "careerDevelopment": 4,
+      "workLifeBalance": 5,
+      "compensation": 4,
+      "recommendation": 5,
+      "feedback": "Excellent company culture and growth opportunities",
+      "improvements": "More advanced technical training"
+    },
+    {
+      "id": 3,
+      "employeeId": 9,
+      "employeeName": "Arjun Mehta",
+      "department": "Technology",
+      "exitDate": "2024-11-25",
+      "exitReason": "Personal Reasons",
+      "overallSatisfaction": 3,
+      "workEnvironment": 4,
+      "managementSupport": 3,
+      "careerDevelopment": 2,
+      "workLifeBalance": 3,
+      "compensation": 3,
+      "recommendation": 3,
+      "feedback": "Good experience but limited growth opportunities",
+      "improvements": "Clearer career progression paths"
+    }
+  ],
+  "learning": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "coursesEnrolled": 5,
+      "coursesCompleted": 4,
+      "certificationsEarned": 2,
+      "trainingHours": 32,
+      "completionRate": 80,
+      "lastActivity": "2024-11-20"
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "coursesEnrolled": 4,
+      "coursesCompleted": 3,
+      "certificationsEarned": 1,
+      "trainingHours": 24,
+      "completionRate": 75,
+      "lastActivity": "2024-11-19"
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "coursesEnrolled": 6,
+      "coursesCompleted": 5,
+      "certificationsEarned": 3,
+      "trainingHours": 40,
+      "completionRate": 83,
+      "lastActivity": "2024-11-21"
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "coursesEnrolled": 3,
+      "coursesCompleted": 3,
+      "certificationsEarned": 2,
+      "trainingHours": 28,
+      "completionRate": 100,
+      "lastActivity": "2024-11-20"
+    },
+    {
+      "id": 5,
+      "employeeId": 5,
+      "coursesEnrolled": 7,
+      "coursesCompleted": 5,
+      "certificationsEarned": 4,
+      "trainingHours": 45,
+      "completionRate": 71,
+      "lastActivity": "2024-11-22"
+    },
+    {
+      "id": 6,
+      "employeeId": 6,
+      "coursesEnrolled": 4,
+      "coursesCompleted": 2,
+      "certificationsEarned": 1,
+      "trainingHours": 18,
+      "completionRate": 50,
+      "lastActivity": "2024-11-18"
+    }
+  ],
+  "hrConsulting": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "sessionDate": "2024-11-15",
+      "sessionType": "Career Guidance",
+      "duration": 45,
+      "feedback": "Excellent clarity on career path",
+      "rating": 5,
+      "nextSession": "2024-12-01"
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "sessionDate": "2024-11-18",
+      "sessionType": "Performance Review",
+      "duration": 30,
+      "feedback": "Good progress in marketing skills",
+      "rating": 4,
+      "nextSession": "2024-12-05"
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "sessionDate": "2024-11-20",
+      "sessionType": "Skill Development",
+      "duration": 60,
+      "feedback": "Needs improvement in technical areas",
+      "rating": 3,
+      "nextSession": "2024-11-27"
+    }
+  ],
+  "trainingPrograms": [
+    {
+      "id": 1,
+      "programName": "Digital Marketing Fundamentals",
+      "duration": "4 weeks",
+      "participants": 8,
+      "completion": 75,
+      "instructor": "Yash Shah",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "programName": "React.js Development",
+      "duration": "6 weeks",
+      "participants": 12,
+      "completion": 60,
+      "instructor": "Tech Lead",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "programName": "UI/UX Design Principles",
+      "duration": "3 weeks",
+      "participants": 6,
+      "completion": 90,
+      "instructor": "Design Head",
+      "status": "Completed"
+    }
+  ],
+  "atsApplications": [
+    {
+      "id": 1,
+      "candidate": "Amit Singh",
+      "position": "Frontend Developer",
+      "status": "Hired",
+      "appliedDate": "2024-11-01"
+    },
+    {
+      "id": 2,
+      "candidate": "Neha Gupta",
+      "position": "UI/UX Designer",
+      "status": "Interview",
+      "appliedDate": "2024-11-15"
+    },
+    {
+      "id": 3,
+      "candidate": "Raj Patel",
+      "position": "Marketing Intern",
+      "status": "Not Hired",
+      "appliedDate": "2024-10-28"
+    },
+    {
+      "id": 4,
+      "candidate": "Sara Khan",
+      "position": "Content Writer",
+      "status": "Hired",
+      "appliedDate": "2024-11-10"
+    }
+  ]
+}
